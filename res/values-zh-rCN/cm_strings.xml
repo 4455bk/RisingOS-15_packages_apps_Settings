@@ -15,6 +15,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">显示引擎</string>
+    <string name="display_engine_mode_title">Reality 显示引擎</string>
+    <string name="x_reality_engine_mode_title">X-Reality 引擎</string>
+    <string name="triluminous_display_mode_title">Triluminous 显示模式</string>
+    <string name="vivid_engine_mode_title">Vivid 显示模式</string>
+    <string name="display_engine_default">默认</string>
+    <string name="display_engine_mode_footer_text">受索尼 Bravia/X-Reality 引擎的启发，显示引擎具有 Vivid 生动模式以增强亮度和色彩饱和度模式，以及 X-Reality 模式以改善细节和色彩准确度。</string>
+
+    <!-- AdBlock -->
+    <string name="enable_adblock">启用广告拦截</string>
+    <string name="enable_adblock_summary">系统级的广告和追踪器拦截。</string>
+
     <string name="keyboard_extras_title">附加功能</string>
     <string name="advanced_keyboard_settings_title">高级设置</string>
     <string name="adb_enable_root">Root 身份的调试</string>
@@ -107,4 +120,15 @@
     <string name="battery_design_capacity_summary">%1$d mAh</string>
     <string name="battery_maximum_capacity">最大容量</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
+    <string name="increasing_ring_min_volume_title">渐强开始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">渐强时间</string>
+
+    <!-- Doze on double tap -->
+     <string name="double_tap_title">双击手势</string>
+     <string name="doze_double_tap_title">双击检查设备</string>
+     <string name="doze_double_tap_summary">双击触发熄屏显示以检查设备</string>
 </resources>

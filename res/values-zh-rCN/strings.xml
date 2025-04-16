@@ -16,6 +16,9 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">强制启用 LTE CA</string>
+    <string name="force_lte_ca_summary">强制启用 LTE 载波聚合技术</string>
     <string name="yes" msgid="1999566976857398962">"是"</string>
     <string name="no" msgid="5541738710521607130">"否"</string>
     <string name="create" msgid="986997212165228751">"创建"</string>
@@ -4790,6 +4793,8 @@
     <string name="preferred_network_mode_evdo_only_summary" msgid="613903666107299289">"首选网络模式：仅限 EvDo"</string>
     <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary" msgid="5643603478619124717">"首选网络模式：CDMA/EvDo/GSM/WCDMA"</string>
     <string name="preferred_network_mode_lte_summary" msgid="4236015557975544307">"首选网络模式：LTE"</string>
+    <!-- LTE only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_only_summary">"首选网络模式：仅限 LTE"</string>
     <string name="preferred_network_mode_lte_gsm_wcdma_summary" msgid="1377100995001285751">"首选网络模式：GSM/WCDMA/LTE"</string>
     <string name="preferred_network_mode_lte_cdma_evdo_summary" msgid="1221806410911793222">"首选网络模式：CDMA+LTE/EVDO"</string>
     <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary" msgid="8974263692041299883">"首选网络模式：LTE/CDMA/EvDo/GSM/WCDMA"</string>
@@ -4820,7 +4825,11 @@
     <string name="preferred_network_mode_nr_lte_tdscdma_cdma_evdo_gsm_wcdma_summary" msgid="3396717432149544381">"首选网络模式：NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA"</string>
     <string name="network_5G_recommended" msgid="4769018972369031538">"5G（推荐）"</string>
     <string name="network_lte" msgid="2449425437381668780">"LTE（推荐）"</string>
+    <!-- Text for Network lte only [CHAR LIMIT=NONE] -->
+    <string name="network_lte_only">"仅限 LTE"</string>
     <string name="network_4G" msgid="9018841362928321047">"4G（推荐）"</string>
+    <!-- Text for Network 4g only [CHAR LIMIT=NONE] -->
+    <string name="network_4G_only">"仅限 4G"</string>
     <string name="select_automatically" msgid="2419752566747259155">"自动选择网络"</string>
     <string name="carrier_settings_title" msgid="6959295328730560529">"运营商设置"</string>
     <string name="cdma_lte_data_service" msgid="6937443423651347345">"设置数据服务"</string>
@@ -5323,6 +5332,8 @@
     <string name="find_broadcast_join_broadcast_error" msgid="5486980388774711346">"无法加入广播"</string>
     <string name="bt_le_audio_scan_qr_code_scanner" msgid="7614569515419813053">"将取景框对准下方的二维码，即可开始收听"</string>
     <string name="bt_le_audio_qr_code_is_not_valid_format" msgid="7821837654128137901">"二维码的格式无效"</string>
+    <string name="connectivity_check_title">互联网连接检查</string>
+    <string name="connectivity_check_summary">用于执行互联网连接检查的 HTTP 服务器。</string>
     <string name="convert_to_esim_title" msgid="71037864129009206">"转换为 eSIM 卡"</string>
     <string name="transfer_esim_to_another_device_title" msgid="5286117866086383192">"将 eSIM 卡转移到其他设备上"</string>
     <string name="background_install_preference_summary" msgid="3065219346519340364">"{count,plural, =1{# 个应用}other{# 个应用}}"</string>

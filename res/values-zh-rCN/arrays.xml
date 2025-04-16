@@ -36,6 +36,20 @@
     <!-- no translation found for dark_ui_scheduler_with_bedtime_preference_titles:1 (1570862084158925417) -->
     <!-- no translation found for dark_ui_scheduler_with_bedtime_preference_titles:2 (1527300254382984555) -->
     <!-- no translation found for dark_ui_scheduler_with_bedtime_preference_titles:3 (5231566512901956369) -->
+  <string-array name="connectivity_check_entries">
+    <item>禁用</item>
+    <item>Amazon Fire OS (US)</item>
+    <item>Cloudflare (US)</item>
+    <item>Google (US) [default]</item>
+    <item>Huawei (CN)</item>
+    <item>Kuketz (DE)</item>
+    <item>Microsoft Edge (US)</item>
+    <item>openSUSE (DE)</item>
+    <item>Ubuntu (UK)</item>
+    <!--<item>DivestOS (US)</item>-->
+    <!--<item>Xiaomi (CN)</item>-->
+    <!--<item>GrapheneOS (CA)</item>-->
+  </string-array>
   <string-array name="lock_after_timeout_entries">
     <item msgid="2223808927866488981">"立即"</item>
     <item msgid="463591454172790676">"5秒"</item>

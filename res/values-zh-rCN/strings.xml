@@ -5761,4 +5761,39 @@
     <string name="supervision_web_content_filters_search_filter_off_summary" msgid="3834238970190924433">"当前账号设置仍可能会使系统滤除或模糊处理含有露骨内容的搜索结果"</string>
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"输入监督 PIN 码"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"“<xliff:g id="FEATURE">%1$s</xliff:g>”动画"</string>
+    <string name="connectivity_check_title">互联网连接检查</string>
+    <string name="connectivity_check_summary">用于执行互联网连接检查的 HTTP 端口。</string>
+    <string name="accessibility_text_reading_options_summary">自定义显示大小，字体 &amp; 文本</string>
+    <!-- Data Usage Cycle -->
+    <string name="billing_cycle_type_title">移动数据用量周期类型</string>
+    <string name="billing_cycle_type_monthly">每月</string>
+    <string name="billing_cycle_type_weekly">每周</string>
+    <string name="billing_cycle_type_daily">每天</string>
+    <string name="billing_cycle_less_than_one_hour_left">剩余不足 1 小时</string>
+    <string name="cycle_type_weekly_title">用量周期重置日</string>
+    <string name="cycle_type_weekly_sub">每周重置日:\n1 = 周一</string>
+    <string name="cycle_type_daily_title">用量周期重置时刻</string>
+    <string name="cycle_type_daily_sub">每日重置时刻:</string>
+    <!-- Title for the dialog to confirm PIN. [CHAR LIMIT=40] -->
+    <string name="bluetooth_pairing_confirmation_title">检查配对码</string>
+    <!-- Message for the dialog to confirm PIN. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_pairing_confirmation_msg">请确认此代码是否与<xliff:g id="device_name">%1$s</xliff:g>上显示的代码一致。\n\n为保障安全，切勿在任何地方输入此代码。</string>
+    <!-- Label for the shared wifi message -->
+    <string name="shared_message">共享</string>
+    <!-- Label for the private wifi message -->
+    <string name="private_message">私人</string>
+    <!-- Label for the conflict wifi dialog confirm button -->
+    <string name="wifi_conflict_dialog_confirm">确认</string>
+    <!-- Label for the conflict wifi dialog cancel button -->
+    <string name="wifi_conflict_dialog_cancel">取消</string>
+    <!-- Title for the preference to share a network with other users on the same device -->
+    <string name="wifi_share_preference_title">共享网络</string>
+    <!-- Summary for the preference to share a network with other users on the same device -->
+    <string name="wifi_share_preference_summary">除访客用户外，所有用户均可查看、编辑和删除此网络</string>
+    <!-- Alert dialog title, informing the user to switch to the conflicting network.  [CHAR LIMIT=250] -->
+    <string name="wifi_conflict_dialog_title">是否切换到<xliff:g id="shared">%1$s</xliff:g>网络"<xliff:g id="network_name">%2$s</xliff:g>"？</string>
+    <!-- Alert dialog summary, informing the user to switch to the conflicting network.  [CHAR LIMIT=250] -->
+    <string name="wifi_conflict_dialog_message">您当前连接到同名<xliff:g id="shared">%1$s</xliff:g>网络。切换后，系统将断开<xliff:g id="shared">%2$s</xliff:g>网络并重新连接到<xliff:g id="private">%3$s</xliff:g>网络，期间可能暂时无法访问互联网。</string>
+    <!-- Label for the check box to allow other device users to edit network details -->
+    <string name="wifi_allow_edit_configuration_title">允许其他用户编辑网络配置</string>
 </resources>
